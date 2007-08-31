@@ -1,0 +1,13 @@
+Changes
+lib/Net/POP3/PerMsgHandler.pm
+lib/Net/POP3/PerMsgHandler/Control.pm
+lib/Net/POP3/PerMsgHandler/Message.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml			# Will be created by "make dist"
+README
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t
