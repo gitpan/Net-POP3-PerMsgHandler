@@ -4,19 +4,19 @@ package Net::POP3::PerMsgHandler;
 
 Net::POP3::PerMsgHandler - subroutine for per message from POP3 server
 
-=head1 VERSION
-
-Version 0.01
-
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use warnings;
 use strict;
 
-use Exporter 'import';
-our @EXPORT = qw/per_message/;
+# fail on 5.8.0
+#use Exporter 'import';
+#our @EXPORT = qw/per_message/;
+require Exporter;
+our @ISA = qw(Exporter);
+our @EXPORT = qw(per_message);  # symbols to export on request
 
 use Params::Validate;
 use Scalar::Defer;

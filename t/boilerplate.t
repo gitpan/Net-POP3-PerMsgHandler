@@ -45,4 +45,4 @@ sub module_boilerplate_ok {
     );
 }
 
-module_boilerplate_ok('lib/Net/POP3/PerMessage.pm');
+module_boilerplate_ok('lib/Net/POP3/PerMsgHandler.pm');
