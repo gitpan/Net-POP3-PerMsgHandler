@@ -6,7 +6,7 @@ Net::POP3::PerMsgHandler - subroutine for per message from POP3 server
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use warnings;
 use strict;

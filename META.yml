@@ -1,28 +1,33 @@
---- 
-abstract: subroutine for per message from POP3 server
-author: 
-  - bokutin, C<< <bokutin at cpan.org> >>
-build_requires: 
+---
+abstract: 'subroutine for per message from POP3 server'
+author:
+  - 'bokutin, C<< <bokutin at cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: Module::Install version 0.68
+generated_by: 'Module::Install version 0.91'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Net-POP3-PerMsgHandler
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-recommends: 
+recommends:
   Email::MIME: 0
   Email::MIME::Attachment::Stripper: 0
   Mail::Message: 0
   Mail::Message::Attachment::Stripper: 0
-requires: 
+requires:
   Class::Accessor::Fast: 0
   Net::POP3: 0
   Params::Validate: 0
   Scalar::Defer: 0
-version: 0.02
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.03
